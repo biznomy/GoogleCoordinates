@@ -37,7 +37,11 @@ html, body {
 				  </li>
 				  <li class="list-group-item">
 				  	<span>Location</span>
-				  	<input class="form-control" type="text" placeholder="Location Name" id="location" name="location" value="new-delhi"/>
+				  	<input class="form-control" type="text" placeholder="Location Name" id="location" name="location" value="Delhi-NCR"/>
+				  </li>
+				  <li class="list-group-item">
+				  	<span>Keywords</span>
+				  	<input class="form-control" type="text" placeholder="Keywords...(tution, education, institute)" id="location" name="keywords" value=""/>
 				  </li>
 				  <li class="list-group-item">
 					<span>North-West Coordinates</span>

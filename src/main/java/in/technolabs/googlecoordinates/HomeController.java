@@ -66,6 +66,7 @@ public class HomeController {
 		double distance  =  Double.parseDouble(request.getParameter("distance"));
 		String country = request.getParameter("country");
 		String location = request.getParameter("location");
+		String keywords = request.getParameter("keywords");
 		
 		String northWest =  request.getParameter("nw-cordinate");
 //		String northEast =  request.getParameter("ne-cordinate");
@@ -117,6 +118,7 @@ public class HomeController {
 		jsonNode.put("distance", distance);
 		jsonNode.put("country", country);
 		jsonNode.put("location", location.toUpperCase());
+		jsonNode.put("keywords", keywords.toLowerCase());
 		
 		long count = 0 ;
 		Iterator<Entry<Double,Double>> it = resultMap.entrySet().iterator();
